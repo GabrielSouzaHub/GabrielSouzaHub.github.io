@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O jogo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--
+    FONTE DA MORTE ☠☠☠☠☠
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    font-family: 'Hanalei Fill', cursive;
+    //-->
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <div class="conteudoRadio">
+                <div id="input1">
+                    <input type="radio" id="radio1" onclick="modoAventura()" name="radioButton" checked>Modo
+                    Aventura</input>
+                </div>
+                <div id="input2">
+                    <input type="radio" id="radio2" onclick="modoInvest()" name="radioButton">Modo
+                    Investigativo</input>
+                </div>
+            </div>
+            <div class="caixaTitulo">
+                <h1 class="titulo">Aventura Selvagem</h1>
+            </div>
+        </div>
+    </header>
+    <main class="conteudoPrincipal">
+        <div id="conteudoTexto">
+            <p id="texto">Bem-vindo ao jogo aventura selvagem.<br>Informe seu nome e aperte em começar para inciar sua
+                jornada!</p>
+        </div>
+        <div id="conteudoBotao">
+            <input type="text" id="userName"></input>
+            <button onclick="geraNome()" id="botao" class="btn">Começar</button>
+        </div>
+    </main>
+    <script src="javascript/jogo.js"></script>
+</body>
+
+</html>

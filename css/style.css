@@ -1,0 +1,48 @@
+body{
+    background-image: url(./../imagem/florestadia.gif);
+    background-size: cover;
+    height: 100vh;
+}
+.caixa{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 1.0%;
+}
+.conteudoRadio{
+    display: flex;
+    flex-flow: row wrap;
+    width: 12%;
+    color: rgb(251, 255, 0);
+}
+.caixaTitulo{
+    margin-left: 20%;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(251, 255, 0);
+    font-size: 270%;
+}
+main{
+    display: flex;
+    width: 40%;
+    height: 65%;
+    margin-top: 5%;
+    margin-left: 30%;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(230, 230, 177);
+    border-radius: 10%;
+}
+#conteudoTexto{
+    font-family: 'Lobster', cursive;
+    font-size: 170%;
+    padding: 10%;
+}
+#conteudoBotao{
+    display: flex;
+    justify-content: space-around;
+}
+#userName{
+    font-size: 130%;
+}
+.btn{
+    padding: 2%;
+}
