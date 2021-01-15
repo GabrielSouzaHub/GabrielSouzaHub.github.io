@@ -32,7 +32,8 @@ main{
     border-radius: 10%;
 }
 #conteudoTexto{
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Walter Turncoat', cursive; */
+    font-family: 'Syne Mono', monospace;
     font-size: 170%;
     padding: 10%;
 }
